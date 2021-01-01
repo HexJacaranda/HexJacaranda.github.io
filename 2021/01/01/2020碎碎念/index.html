@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.2.1">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"yoursite.com","root":"/","scheme":"Pisces","version":"7.7.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
+  <meta name="description" content="2020 总结先来一点现实的碎碎念 做题复兴在这里没有任何贬义，纯粹是预见到了20年年底实习面试需要考算法的需要。当初其实也算半个我们寝室 “黄埔军校” 的学员之一，断断续续做了一段时间的LeetCode，大概70~80道的样子，对一部分题型和套路还是有了一些映像和理解。 不过和QM的一周刷70道，还有另外一个室友，同时也是“黄埔军校” 的学员，的不懈坚持对比起来，真是相形见绌。 惭愧了 实习实训">
+<meta property="og:type" content="article">
+<meta property="og:title" content="2020碎碎念">
+<meta property="og:url" content="http://yoursite.com/2021/01/01/2020%E7%A2%8E%E7%A2%8E%E5%BF%B5/index.html">
+<meta property="og:site_name" content="Scene in the Past">
+<meta property="og:description" content="2020 总结先来一点现实的碎碎念 做题复兴在这里没有任何贬义，纯粹是预见到了20年年底实习面试需要考算法的需要。当初其实也算半个我们寝室 “黄埔军校” 的学员之一，断断续续做了一段时间的LeetCode，大概70~80道的样子，对一部分题型和套路还是有了一些映像和理解。 不过和QM的一周刷70道，还有另外一个室友，同时也是“黄埔军校” 的学员，的不懈坚持对比起来，真是相形见绌。 惭愧了 实习实训">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2021-01-01T15:14:04.000Z">
+<meta property="article:modified_time" content="2021-01-01T15:30:43.427Z">
+<meta property="article:author" content="HexJacaranda">
+<meta property="article:tag" content="杂记">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://yoursite.com/2021/01/01/2020%E7%A2%8E%E7%A2%8E%E5%BF%B5/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'en'
+  };
+</script>
+
+  <title>2020碎碎念 | Scene in the Past</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Scene in the Past</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>Home</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>Tags</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-fw fa-th"></i>Categories</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>Archives</a>
+
+  </li>
+  </ul>
+
+</nav>
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content">
+            
+
+  <div class="posts-expand">
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="en">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2021/01/01/2020%E7%A2%8E%E7%A2%8E%E5%BF%B5/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="HexJacaranda">
+      <meta itemprop="description" content="编程与小众音乐日常营业">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Scene in the Past">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          2020碎碎念
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
+
+              <time title="Created: 2021-01-01 23:14:04 / Modified: 23:30:43" itemprop="dateCreated datePublished" datetime="2021-01-01T23:14:04+08:00">2021-01-01</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h1 id="2020-总结"><a href="#2020-总结" class="headerlink" title="2020 总结"></a>2020 总结</h1><p>先来一点现实的碎碎念</p>
+<h2 id="做题复兴"><a href="#做题复兴" class="headerlink" title="做题复兴"></a>做题复兴</h2><p>在这里没有任何贬义，纯粹是预见到了20年年底实习面试需要考算法的需要。当初其实也算半个我们寝室 “黄埔军校” 的学员之一，断断续续做了一段时间的LeetCode，大概70~80道的样子，对一部分题型和套路还是有了一些映像和理解。</p>
+<p>不过和QM的一周刷70道，还有另外一个室友，同时也是“黄埔军校” 的学员，的不懈坚持对比起来，真是相形见绌。</p>
+<p>惭愧了</p>
+<h2 id="实习"><a href="#实习" class="headerlink" title="实习"></a>实习</h2><p>实训的时候死猪不怕开水烫，报了腾讯选了个项目，后来有幸进去做日常实习，做的工作和想象中的还是有不小的差别。预先其实了解CSIG算天坑（谁知道呢？）</p>
+<p>知识增长速度其实没有达到各种意义上的预期，且以我个人的意见，目前自己做的工作天花板是相当容易够到的，没有太多的发展希望。除此之外，中途还被拉去做了两个前端需求。其实在这个事情上我不是有什么特别大的意见，工作上的事情，能做，但不是很 ”有益“（经典求生恰饭论）。</p>
+<p>其实除了这些之外都挺完美，远程实习在闲的时候要划水也特别容易（请原谅我，此时只想起一句督工的话：”远程实习就像偷情一样“，在拜读过督工早期博文后，突然也觉得他说出这种骚话来好像不太意外。还有经典技术赋能会议上的”DNA传播运动“，到会的人懂得都懂）。其中感触最深的还是那个CICD持续测试集成系统，算是软件工程目前我见到的唯一系统实践，符合我当初对这类系统的期望。</p>
+<p>组里的各位也挺好，都很幽默，在我需要信息和帮助时给予我（虽然我倾向于自己搞定一切）。</p>
+<p>但种种因素下最终决定还是去参加其他公司实习面试，寻求更好的个人发展机会。</p>
+<h2 id="面试"><a href="#面试" class="headerlink" title="面试"></a>面试</h2><p>实习面试这里，按顺序来吧</p>
+<ul>
+<li>Intel：Product指的是CPU，于是乎那个岗位是做CPU测试的，虽然前两面聊的挺好，遂挂之（还被某CSY调侃）</li>
+<li>中科信息：兜底中的兜底（私密马赛，虽然这样说不太好，然而HR小姐姐也看得出来），Offer鸽了（双手合十.jpg）</li>
+<li>SAP：开始的挺晚的，英文自分绍介还是有点卡壳，不过还好。线上笔试选择那叫一个广泛，除开K8S和机器学习的知识面应该都覆盖掉了，不过编程题目还好都AC掉了（特别感谢去年写面经的老哥，提前去阴间OJ网站练习了一些题目，以及如何正确处理输入输出）。群面中一个大槽点是新兴技术：我和几个都聊了聊云计算，然而被提醒这是10年前的（不是我不想，关键是她说了一堆新兴技术我都不太认识），尴尬子。最后还是顺利拿到Offer，并签下。</li>
+<li>字节：一周一面，一共三面，三面就第一面写出来了算法。一二面吐槽Runtime项目讲的过于广泛（差不多就得了.jpg），第三面没有这样讲，结果还聊到了在腾讯这边的督工（安卓测试SDK这块圈子还是蛮小的），聊了聊这边做的QAPM，还算愉快。HR面是个小姐姐，过程轻松愉快，拿到Offer后目前还在拖一拖的阶段（双手合十.jpg）</li>
+</ul>
+<hr>
+<p>接着再来一点主观的，意识流的，无厘头的</p>
+<h2 id="疫情"><a href="#疫情" class="headerlink" title="疫情"></a>疫情</h2><p>疫情改变了太多的事情，也把一切被隐藏的问题揭露了出来。死亡，全球经济的萧条，不知道什么时候才看得到头，虽说凯恩斯主义将经济周期大大地延长了，但大家终究是没能逃过这一劫，而且还是二连Combo（躺平）。无论从今年有关于公务员的舆论，和实际报考的人数来说，也印证了经济的衰退这一点。</p>
+<h2 id="未来"><a href="#未来" class="headerlink" title="未来"></a>未来</h2><p>新的一年。在选择了SAP下，965，那么就要更加努力的刷题，同时多多学习，实践并且完成我的第一个作品，为以后能做上自己喜欢的工作打下坚实的基础。不过如果可以接触HANA这样的In Memory DB的内部开发，想必在学习和职业发展上也是大有脾益的。哦，还有，记得下班后跑步，多多锻炼，965的工作没有借口可以逃避了。</p>
+<h2 id="LUV"><a href="#LUV" class="headerlink" title="LUV"></a>LUV</h2><p>疫情也带来了一些机缘，很幸运没有错过她。虽然过程曲折且伴随着摩擦，但总归都能相互理解扶持，且两人都笃定爱着对方，别无所求。昨天收到了她亲手编织的围巾，上面牌子镌刻的是我们遇见的第一首歌曲，今年找个机会亲手做顿饭给她尝尝吧，就这样。</p>
+<p>我想不久也会去实现她的愿望：穿上浴衣去看一场夏日烟火。</p>
+<p>嗯，她穿上浴衣在升空的烟花照耀下一定会很美吧。</p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E6%9D%82%E8%AE%B0/" rel="tag"># 杂记</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2020/04/01/Another-One/" rel="prev" title="Another One">
+      <i class="fa fa-chevron-left"></i> Another One
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+  </div>
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#2020-总结"><span class="nav-number">1.</span> <span class="nav-text">2020 总结</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#做题复兴"><span class="nav-number">1.1.</span> <span class="nav-text">做题复兴</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#实习"><span class="nav-number">1.2.</span> <span class="nav-text">实习</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#面试"><span class="nav-number">1.3.</span> <span class="nav-text">面试</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#疫情"><span class="nav-number">1.4.</span> <span class="nav-text">疫情</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#未来"><span class="nav-number">1.5.</span> <span class="nav-text">未来</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#LUV"><span class="nav-number">1.6.</span> <span class="nav-text">LUV</span></a></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">HexJacaranda</p>
+  <div class="site-description" itemprop="description">编程与小众音乐日常营业</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-name">tags</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="mailto:rbqlzg1937n@msn.com" title="E-Mail → mailto:rbqlzg1937n@msn.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://github.com/HexJacaranda" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;HexJacaranda" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">HexJacaranda</span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> v4.2.1
+  </div>
+  <span class="post-meta-divider">|</span>
+  <div class="theme-info">Theme – <a href="https://pisces.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> v7.7.2
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
